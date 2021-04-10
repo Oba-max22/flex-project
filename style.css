@@ -144,3 +144,10 @@ button {
     background-color: #9BCCBB;
     border: 1px solid #302E34;
 }
+
+footer {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
