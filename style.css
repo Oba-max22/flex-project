@@ -1,0 +1,146 @@
+body {
+    width: auto;
+    height: auto;
+    margin: auto;
+    background-color: #F5F4F0;
+    color: #302E34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+
+.text-box {
+    width: 250px;
+    height: 100px;
+    margin: 20px;
+    font-size: 15px;
+}
+
+.first-box {
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.second-box {
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+.third-box {
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.fourth-box {
+    margin: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: flex-start;
+}
+.fifth-box {
+    margin: 20px;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.other {
+    margin: 50px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-us{
+    background-color: #9BCCBB;
+    width: 120vw;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.upper {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.name {
+    margin-right: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+.email {
+    display: flex;
+    flex-flow: column wrap;
+}
+.timeline {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px 0px;
+}
+.message {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 15px 0px;
+}
+.btn {
+    align-self: flex-end;
+}
+input {
+    background-color: #9BCCBB;
+    border: none;
+    border-bottom: 1px solid #302E34;
+}
+button {
+    width: 100px;
+    height: 40px;
+    margin: 15px 0px;
+    background-color: #9BCCBB;
+    border: 1px solid #302E34;
+}
